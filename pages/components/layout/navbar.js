@@ -1,11 +1,12 @@
+import Link from 'next/link'
+
 function Navbar() {
     return <ul>
-    <li><a className="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li ><a href="#about">About</a></li>
+    <li><Link className="active" href="/">Home</Link></li>
+    <li><Link href="/about">About Us</Link></li>
+    <li><Link href="/blog">Blog Post</Link></li>
   </ul>;
   }
   
   export default Navbar;
-  
+ 
