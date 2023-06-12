@@ -154,3 +154,18 @@ li a:hover:not(.active) {
   color: white;
   text-align: center;
 }
+
+/* Detail page css */
+
+.detail-page{
+  margin: 3rem;
+}
+.detail-page > button {
+  margin-bottom: 1rem;
+}
+
+
+.product-item{
+  margin: 2rem 2rem 1rem 2rem;
+    border: 1px solid red;
+}

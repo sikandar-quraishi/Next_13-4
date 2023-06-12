@@ -1,23 +1,22 @@
 // pages/listing.js
 import React from "react";
 import Link from "next/link";
+import products from "../components/common/fakeproducts/products";
+
 
 const Listing = () => {
-  // Assume you have an array of items to display
-  const items = [
-    { id: 1, title: "Item 1" },
-    { id: 2, title: "Item 2" },
-    { id: 3, title: "Item 3" },
-  ];
-
   return (
     <div>
       <h1>Listing Page</h1>
       <div>
-        {items.map((item) => (
-          <div key={item.id}>
-            <Link href={`/portfolio/${item.id}`}>
-              <p>{item.title}</p>
+        {products.map((product) => (
+          <div key={product.id} className="product-item">
+            <Link href={`/portfolio/${product.id}`}>
+              <p>{product.id}</p>
+              <p>{product.name}</p>
+              <p>{product.price}</p>
+              <p>{product.description}</p>
+              <p>{product.category}</p>
             </Link>
           </div>
         ))}
