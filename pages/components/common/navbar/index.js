@@ -16,7 +16,7 @@ function Navbar() {
           <Link href="/portfolio/listing">Portfolio</Link>
         </li>
         <li>
-          <Link href="/blog">Blog Post</Link>
+          <Link href="/blog">Blog (404)</Link>
         </li>
       </ul>
     </nav>
