@@ -13,6 +13,9 @@ function Navbar() {
           <Link href="/about">About Us</Link>
         </li>
         <li>
+          <Link href="/portfolio/listing">Portfolio</Link>
+        </li>
+        <li>
           <Link href="/blog">Blog Post</Link>
         </li>
       </ul>
